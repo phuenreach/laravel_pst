@@ -14,9 +14,12 @@
                     <h1>Login</h1>
                     <p>please enter your login and password</p>
                    
-                    <input type="email" name='email' class="chenge-position" placeholder="email">
-                    <input  type="password" name="password" class="chenge-position" placeholder="password">
+                    <input required type="email" name='email' class="change-position" placeholder="email">
+                    <input required type="password" name="password" class="change-position" placeholder="password">
+                    <a class="forgotpas">forgot password?</a>
                     <button class="btn-login">Login</button>
+                    <div class="register"><p>are you new member? <a href="{{route('register')}}">Register now</a></p>
+                    </div>
                 </form>
             </div>
         </div>

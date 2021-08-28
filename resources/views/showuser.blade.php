@@ -26,7 +26,7 @@
             <td>{{$item->phone}}</td>
             <td>
                 <a href="{{route('edituser',$item->id)}}" class="mr-2"><i class="fa fa-edit text-info "></i></a>
-                <a href="{{route('deleteuser',$item->id)}}"><i class="fa fa-trash text-danger"></i></a>
+                <a href="{{route('deleteuser',$item->id)}}" ><i class="fa fa-trash text-danger"></i></a>
             </td>
         </tr>
         @endforeach

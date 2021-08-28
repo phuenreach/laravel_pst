@@ -12,7 +12,8 @@
         <div class="container-fluid ">
             <div class="row">
                 <div class="header">
-                <h2>Admin</h2>
+                    <h2>Admin</h2>
+                    <a href="{{route('logout')}}"><i class="fa fa-sign-out"> log out</i></a>
                 </div>
             </div>
             
